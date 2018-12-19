@@ -3,7 +3,11 @@
 //  TouchIDSwift
 //
 //  Created by PC on 2017/8/17.
+<<<<<<< HEAD
+//  Copyright © 2017年 PC. All rights reserved.
+=======
 //  Copyright © 2017年 LongPei. All rights reserved.
+>>>>>>> 34da80549fd361ab89af791e78ac2ebac3823020
 //
 
 import UIKit
@@ -14,8 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+<<<<<<< HEAD
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]?) -> Bool {
+        // Override point for customization after application launch.
+        
+=======
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+>>>>>>> 34da80549fd361ab89af791e78ac2ebac3823020
         return true
     }
 

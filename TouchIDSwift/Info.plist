@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<<<<<<< HEAD
+	<key>NSFaceIDUsageDescription</key>
+	<string>需要允许访问FaceID，才能使用面容解锁</string>
+=======
+>>>>>>> 34da80549fd361ab89af791e78ac2ebac3823020
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

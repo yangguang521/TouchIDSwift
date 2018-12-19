@@ -1,0 +1,6 @@
+framework module Pods_TouchIDSwift {
+  umbrella header "Pods-TouchIDSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

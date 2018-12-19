@@ -15,6 +15,10 @@
 		4FF850F21F45697F009CBC7E /* TouchIDSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF850F11F45697F009CBC7E /* TouchIDSwiftTests.swift */; };
 		4FF850FD1F45697F009CBC7E /* TouchIDSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF850FC1F45697F009CBC7E /* TouchIDSwiftUITests.swift */; };
 		4FF8510C1F45698C009CBC7E /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF8510B1F45698C009CBC7E /* LocalAuthentication.framework */; };
+		9FE7222921CA3A9600D97E44 /* ShowHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7222521CA3A9600D97E44 /* ShowHUD.swift */; };
+		9FE7222A21CA3A9600D97E44 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7222621CA3A9600D97E44 /* Device.swift */; };
+		9FE7222B21CA3A9600D97E44 /* FeaturesUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7222721CA3A9600D97E44 /* FeaturesUtil.swift */; };
+		9FE7222C21CA3A9600D97E44 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7222821CA3A9600D97E44 /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		4FF850FC1F45697F009CBC7E /* TouchIDSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDSwiftUITests.swift; sourceTree = "<group>"; };
 		4FF850FE1F45697F009CBC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF8510B1F45698C009CBC7E /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		9FE7222521CA3A9600D97E44 /* ShowHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowHUD.swift; sourceTree = "<group>"; };
+		9FE7222621CA3A9600D97E44 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		9FE7222721CA3A9600D97E44 /* FeaturesUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturesUtil.swift; sourceTree = "<group>"; };
+		9FE7222821CA3A9600D97E44 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,8 @@
 		4FF850DB1F45697F009CBC7E /* TouchIDSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9FE7222421CA3A9600D97E44 /* FeaturesUtil */,
+				9FE7222821CA3A9600D97E44 /* HomeTableViewCell.swift */,
 				4FF850DC1F45697F009CBC7E /* AppDelegate.swift */,
 				4FF850DE1F45697F009CBC7E /* ViewController.swift */,
 				4FF850E01F45697F009CBC7E /* Main.storyboard */,
@@ -137,6 +147,16 @@
 				4FF8510B1F45698C009CBC7E /* LocalAuthentication.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FE7222421CA3A9600D97E44 /* FeaturesUtil */ = {
+			isa = PBXGroup;
+			children = (
+				9FE7222521CA3A9600D97E44 /* ShowHUD.swift */,
+				9FE7222621CA3A9600D97E44 /* Device.swift */,
+				9FE7222721CA3A9600D97E44 /* FeaturesUtil.swift */,
+			);
+			path = FeaturesUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE7222C21CA3A9600D97E44 /* HomeTableViewCell.swift in Sources */,
 				4FF850DF1F45697F009CBC7E /* ViewController.swift in Sources */,
 				4FF850DD1F45697F009CBC7E /* AppDelegate.swift in Sources */,
+				9FE7222921CA3A9600D97E44 /* ShowHUD.swift in Sources */,
+				9FE7222B21CA3A9600D97E44 /* FeaturesUtil.swift in Sources */,
+				9FE7222A21CA3A9600D97E44 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
