@@ -7,6 +7,6 @@ context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &supp
 
 2.判断是否解锁成功
 
-context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "需要指纹解锁") { (success, error) in } 
+context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "需要指纹识别/面容识别") { (success, error) in } 
 
 ![image](https://github.com/yangguang521/TouchIDSwift/blob/master/touchId.png)
